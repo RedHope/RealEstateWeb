@@ -204,6 +204,12 @@
 		header.major p {
 			font-size: 1.5em;
 		}
+	header.fixed {
+		transition: all .25s ease;
+		left: 0;
+		position: fixed;
+		width: 100%;
+	}
 
 /* Form */
 
