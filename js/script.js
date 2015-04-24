@@ -1,0 +1,1 @@
+angular.module('ramaProp', ['ngAnimate']).controller('MainCntrl', function($scope){});

@@ -935,29 +935,29 @@
 /* Header */
 
 	body.landing #header {
-		background-color: transparent;
+		background-color: white;
 		left: 0;
-		position: absolute;
+		
 		top: 0;
 	}
 
 		body.landing #header nav a {
-			color: rgba(255, 255, 255, 0.5);
+			
 		}
 
 	#header {
 		background-color: #383b43;
-		color: #ffffff;
+		color: #383b43;
 		cursor: default;
 		font-size: 1.1em;
-		height: 6em;
+		height: 4em;
 		line-height: 6em;
 		width: 100%;
 		z-index: 10000;
 	}
 
 		#header h1 {
-			color: #ffffff;
+			color: #383b43;
 			height: inherit;
 			left: 3em;
 			line-height: inherit;
@@ -982,6 +982,7 @@
 				list-style: none;
 				margin: 0;
 				padding-left: 0;
+				height: 1em;
 			}
 
 				#header nav > ul > li {
@@ -997,13 +998,15 @@
 						-o-transition: color 0.2s ease-in-out;
 						-ms-transition: color 0.2s ease-in-out;
 						transition: color 0.2s ease-in-out;
-						color: #cdced0;
+						color: black;
 						display: inline-block;
 						text-decoration: none;
 					}
 
 						#header nav > ul > li a:active, #header nav > ul > li a:hover {
-							color: #ffffff;
+							color: #383b43;
+							
+							transition: color 0.2s ease-in-out;
 						}
 
 					#header nav > ul > li:first-child {
@@ -1011,7 +1014,7 @@
 					}
 
 					#header nav > ul > li .button {
-						background-color: #fff;
+						background-color: #3cadd4;
 						color: #444 !important;
 						height: 2.25em;
 						line-height: 2.25em;
@@ -1020,6 +1023,10 @@
 						position: relative;
 						top: -0.075em;
 						vertical-align: middle;
+					}
+
+					#header nav > ul > li .button:hover {
+
 					}
 
 		#header .container {
